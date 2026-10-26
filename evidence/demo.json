@@ -1,0 +1,13 @@
+{
+  "executed_code_cells": 14,
+  "clearml_executed": true,
+  "clean_clone_hashes_match": true,
+  "files": {
+    "digits.csv": "2f1fbad4e2833db90eaee7cf0ff490360a7a23c3488f15ea501637d6f37d5406",
+    "diabetes.csv": "2fa06c7aeff12690edc4a5d2fd431aaa88e73f43485f5ce80810e6985f6ba04f"
+  },
+  "base_commit": "25fdbec23510026b1ae68c4274a267570fe15a6d",
+  "second_commit": "8e0a5c35d3f3fe4e33ed6b050f2d46a5e7093f91",
+  "BASE_ID": "887a6d98ab0749d99e2aa66f35572769",
+  "CHILD_ID": "a8a770d1680d45d3962eae0838578416"
+}
