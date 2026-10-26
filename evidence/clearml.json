@@ -1,0 +1,297 @@
+{
+  "project": "MIIT/MLOps/practice_3/zagudaev",
+  "name": "sklearn-tabular-zagudaev",
+  "ids": {
+    "BASE_ID": "0c3ab7bf5e7b46e9b448249dd5a71103",
+    "WINE_ID": "73fd53584c064ba0a45c3187f3e7af98",
+    "IRIS_FEATURES_ID": "ad76a5e5fb044c71af432a1c612207e2"
+  },
+  "fresh_cache": "C:\\Users\\Admin\\Desktop\\практика_3_mlops\\mlops-data-zagudaev\\.runtime\\clearml_verify_4d902e2f698e4d9f8fa4efd49a31c78d\\fresh_cache",
+  "versions": {
+    "BASE_ID": {
+      "dataset_id": "0c3ab7bf5e7b46e9b448249dd5a71103",
+      "version": "1.0.0",
+      "parents": [],
+      "status": "completed",
+      "files": [
+        {
+          "path": "data/iris.csv",
+          "sha256": "6d700503c9c2e2c71d187b889a87af8a8d3a6dd5bae1266d46f4ee4db5a6349f",
+          "rows": 150,
+          "columns_count": 5,
+          "columns": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)",
+            "target"
+          ],
+          "dtypes": {
+            "sepal length (cm)": "float64",
+            "sepal width (cm)": "float64",
+            "petal length (cm)": "float64",
+            "petal width (cm)": "float64",
+            "target": "int64"
+          },
+          "missing_values": 0,
+          "first_row": {
+            "sepal length (cm)": 4.3,
+            "sepal width (cm)": 3.0,
+            "petal length (cm)": 1.1,
+            "petal width (cm)": 0.1,
+            "target": 0.0
+          },
+          "last_row": {
+            "sepal length (cm)": 7.9,
+            "sepal width (cm)": 3.8,
+            "petal length (cm)": 6.4,
+            "petal width (cm)": 2.0,
+            "target": 2.0
+          }
+        }
+      ],
+      "all_files": [
+        "iris.csv"
+      ],
+      "added": [
+        "iris.csv"
+      ],
+      "modified": [],
+      "removed": [],
+      "file_owner_dataset_ids": {
+        "iris.csv": "0c3ab7bf5e7b46e9b448249dd5a71103"
+      },
+      "tags": [
+        "base",
+        "practice-3"
+      ],
+      "ui_url": "https://app.clear.ml/projects/2decfa37e9e34832bed1134763d925dd/experiments/0c3ab7bf5e7b46e9b448249dd5a71103/output/log",
+      "dependency_graph": {
+        "0c3ab7bf5e7b46e9b448249dd5a71103": []
+      }
+    },
+    "WINE_ID": {
+      "dataset_id": "73fd53584c064ba0a45c3187f3e7af98",
+      "version": "1.1.0",
+      "parents": [
+        "0c3ab7bf5e7b46e9b448249dd5a71103"
+      ],
+      "status": "completed",
+      "files": [
+        {
+          "path": "data/iris.csv",
+          "sha256": "6d700503c9c2e2c71d187b889a87af8a8d3a6dd5bae1266d46f4ee4db5a6349f",
+          "rows": 150,
+          "columns_count": 5,
+          "columns": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)",
+            "target"
+          ],
+          "dtypes": {
+            "sepal length (cm)": "float64",
+            "sepal width (cm)": "float64",
+            "petal length (cm)": "float64",
+            "petal width (cm)": "float64",
+            "target": "int64"
+          },
+          "missing_values": 0,
+          "first_row": {
+            "sepal length (cm)": 4.3,
+            "sepal width (cm)": 3.0,
+            "petal length (cm)": 1.1,
+            "petal width (cm)": 0.1,
+            "target": 0.0
+          },
+          "last_row": {
+            "sepal length (cm)": 7.9,
+            "sepal width (cm)": 3.8,
+            "petal length (cm)": 6.4,
+            "petal width (cm)": 2.0,
+            "target": 2.0
+          }
+        },
+        {
+          "path": "data/wine.csv",
+          "sha256": "38860ba04ace4d402242340bcf40be4bd6f4ebde9144a3dc89dc12c20f7f8e60",
+          "rows": 178,
+          "columns_count": 14,
+          "columns": [
+            "alcohol",
+            "malic_acid",
+            "ash",
+            "alcalinity_of_ash",
+            "magnesium",
+            "total_phenols",
+            "flavanoids",
+            "nonflavanoid_phenols",
+            "proanthocyanins",
+            "color_intensity",
+            "hue",
+            "od280/od315_of_diluted_wines",
+            "proline",
+            "target"
+          ],
+          "dtypes": {
+            "alcohol": "float64",
+            "malic_acid": "float64",
+            "ash": "float64",
+            "alcalinity_of_ash": "float64",
+            "magnesium": "int64",
+            "total_phenols": "float64",
+            "flavanoids": "float64",
+            "nonflavanoid_phenols": "float64",
+            "proanthocyanins": "float64",
+            "color_intensity": "float64",
+            "hue": "float64",
+            "od280/od315_of_diluted_wines": "float64",
+            "proline": "int64",
+            "target": "int64"
+          },
+          "missing_values": 0,
+          "first_row": {
+            "alcohol": 11.03,
+            "malic_acid": 1.51,
+            "ash": 2.2,
+            "alcalinity_of_ash": 21.5,
+            "magnesium": 85.0,
+            "total_phenols": 2.46,
+            "flavanoids": 2.17,
+            "nonflavanoid_phenols": 0.52,
+            "proanthocyanins": 2.01,
+            "color_intensity": 1.9,
+            "hue": 1.71,
+            "od280/od315_of_diluted_wines": 2.87,
+            "proline": 407.0,
+            "target": 1.0
+          },
+          "last_row": {
+            "alcohol": 14.83,
+            "malic_acid": 1.64,
+            "ash": 2.17,
+            "alcalinity_of_ash": 14.0,
+            "magnesium": 97.0,
+            "total_phenols": 2.8,
+            "flavanoids": 2.98,
+            "nonflavanoid_phenols": 0.29,
+            "proanthocyanins": 1.98,
+            "color_intensity": 5.2,
+            "hue": 1.08,
+            "od280/od315_of_diluted_wines": 2.85,
+            "proline": 1045.0,
+            "target": 0.0
+          }
+        }
+      ],
+      "all_files": [
+        "iris.csv",
+        "wine.csv"
+      ],
+      "added": [
+        "wine.csv"
+      ],
+      "modified": [],
+      "removed": [],
+      "file_owner_dataset_ids": {
+        "iris.csv": "0c3ab7bf5e7b46e9b448249dd5a71103",
+        "wine.csv": "73fd53584c064ba0a45c3187f3e7af98"
+      },
+      "tags": [
+        "practice-3",
+        "wine"
+      ],
+      "ui_url": "https://app.clear.ml/projects/2decfa37e9e34832bed1134763d925dd/experiments/73fd53584c064ba0a45c3187f3e7af98/output/log",
+      "dependency_graph": {
+        "0c3ab7bf5e7b46e9b448249dd5a71103": [],
+        "73fd53584c064ba0a45c3187f3e7af98": [
+          "0c3ab7bf5e7b46e9b448249dd5a71103"
+        ]
+      }
+    },
+    "IRIS_FEATURES_ID": {
+      "dataset_id": "ad76a5e5fb044c71af432a1c612207e2",
+      "version": "2.0.0",
+      "parents": [
+        "0c3ab7bf5e7b46e9b448249dd5a71103"
+      ],
+      "status": "completed",
+      "files": [
+        {
+          "path": "data/iris.csv",
+          "sha256": "3e1ba63f55da2aabc432d00b1670140f5162bf9ef34b837598ec2fc176c9ff26",
+          "rows": 150,
+          "columns_count": 7,
+          "columns": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)",
+            "target",
+            "sepal_area",
+            "petal_area"
+          ],
+          "dtypes": {
+            "sepal length (cm)": "float64",
+            "sepal width (cm)": "float64",
+            "petal length (cm)": "float64",
+            "petal width (cm)": "float64",
+            "target": "int64",
+            "sepal_area": "float64",
+            "petal_area": "float64"
+          },
+          "missing_values": 0,
+          "first_row": {
+            "sepal length (cm)": 4.3,
+            "sepal width (cm)": 3.0,
+            "petal length (cm)": 1.1,
+            "petal width (cm)": 0.1,
+            "target": 0.0,
+            "sepal_area": 12.9,
+            "petal_area": 0.11
+          },
+          "last_row": {
+            "sepal length (cm)": 7.9,
+            "sepal width (cm)": 3.8,
+            "petal length (cm)": 6.4,
+            "petal width (cm)": 2.0,
+            "target": 2.0,
+            "sepal_area": 30.02,
+            "petal_area": 12.8
+          }
+        }
+      ],
+      "all_files": [
+        "iris.csv"
+      ],
+      "added": [],
+      "modified": [
+        "iris.csv"
+      ],
+      "removed": [],
+      "file_owner_dataset_ids": {
+        "iris.csv": "ad76a5e5fb044c71af432a1c612207e2"
+      },
+      "tags": [
+        "iris_features",
+        "practice-3"
+      ],
+      "ui_url": "https://app.clear.ml/projects/2decfa37e9e34832bed1134763d925dd/experiments/ad76a5e5fb044c71af432a1c612207e2/output/log",
+      "dependency_graph": {
+        "ad76a5e5fb044c71af432a1c612207e2": [
+          "0c3ab7bf5e7b46e9b448249dd5a71103"
+        ]
+      }
+    }
+  },
+  "dependency_graph": {
+    "0c3ab7bf5e7b46e9b448249dd5a71103": [],
+    "73fd53584c064ba0a45c3187f3e7af98": [
+      "0c3ab7bf5e7b46e9b448249dd5a71103"
+    ],
+    "ad76a5e5fb044c71af432a1c612207e2": [
+      "0c3ab7bf5e7b46e9b448249dd5a71103"
+    ]
+  }
+}

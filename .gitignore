@@ -1,0 +1,11 @@
+/data/
+/.venv/
+/.runtime/
+/downloads/
+/clearml.conf
+/.env
+/.env.*
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+/data

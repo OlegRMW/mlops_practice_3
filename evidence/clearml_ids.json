@@ -1,0 +1,10 @@
+{
+  "project": "MIIT/MLOps/practice_3/zagudaev",
+  "name": "sklearn-tabular-zagudaev",
+  "api_server": "https://api.clear.ml",
+  "ids": {
+    "BASE_ID": "0c3ab7bf5e7b46e9b448249dd5a71103",
+    "WINE_ID": "73fd53584c064ba0a45c3187f3e7af98",
+    "IRIS_FEATURES_ID": "ad76a5e5fb044c71af432a1c612207e2"
+  }
+}
